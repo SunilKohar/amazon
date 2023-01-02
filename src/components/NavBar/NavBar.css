@@ -1,0 +1,139 @@
+.navbar_component {
+  background-color: #131a22;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+}
+.navBar_logo {
+  background: url("https://ik.imagekit.io/SunilKohar/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672243415563")
+    no-repeat -9px -50px;
+  width: 98px;
+  height: 31px;
+  margin: 18px;
+}
+.navbar_locator {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.navbar_locatorImage {
+  background: url("https://ik.imagekit.io/SunilKohar/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672243415563")
+    no-repeat -70px -305px;
+  width: 19px;
+  height: 22px;
+}
+.navbar_location {
+  color: whitesmoke;
+  font-size: large;
+  margin-left: 5px;
+}
+.navBar_SearchComponent {
+  display: flex;
+}
+.navBar_SearchBox {
+  height: 40px;
+  width: 650px;
+  border: 1px solid transparent;
+  margin-top: 8px;
+}
+.searchBox {
+  background-color: #febe68;
+  width: 40px;
+  height: 44px;
+  border-radius: 0px 5px 5px 0px;
+  margin-top: 8px;
+}
+.navBar_SearchIcon {
+  background: url("https://ik.imagekit.io/SunilKohar/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672243415563")
+    no-repeat -9px -289px;
+  width: 23px;
+  height: 23px;
+  margin: 10px;
+}
+.categories {
+  height: 44px;
+  width: 60px;
+  margin-top: 8px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 20px;
+  background-color: #e6e5e5;
+  text-align-last: center;
+}
+
+.navbar_signin {
+  color: white;
+  height: 40px;
+  width: 130px;
+  margin-top: 8px;
+  margin-left: 50px;
+}
+
+.navbar_orders {
+  color: white;
+  margin-top: 8px;
+  margin-left: 50px;
+  width: 80px;
+}
+
+.navbar_Cart {
+  color: white;
+  margin: 15px;
+  display: flex;
+  /* margin-left: 15px; */
+}
+
+.cart_image {
+  background: url("https://ik.imagekit.io/SunilKohar/amazon-image/amazon-image/sprite_350x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672243415563")
+    no-repeat -217px -336px;
+  width: 43px;
+  height: 30px;
+  margin-left: 15px;
+}
+.Cart {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.cart_item {
+  position: relative;
+  font-weight: bold;
+  left: -23px;
+  top: -3px;
+  color: #f08805;
+}
+
+.navbar_footer {
+  width: 100vw;
+  height: 40px;
+  background-color: #22303e;
+  display: flex;
+  color: whitesmoke;
+}
+.navbar_footer_text icon {
+  color: white;
+}
+.navbar_footer_text {
+  margin: 10px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Advertisement */
+.navbar_advertisement {
+  padding-left: 18px;
+  font-size: 25px;
+  display: inline-block;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.Prime_join {
+  font-size: 25px;
+  display: inline-block;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: aquamarine;
+  color: black;
+  width: 220px;
+  text-align: center;
+}

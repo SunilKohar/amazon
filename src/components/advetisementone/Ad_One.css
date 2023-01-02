@@ -1,0 +1,22 @@
+.Ad_One_main {
+  height: 420px;
+  width: 335px;
+  background: white;
+  margin: 12px;
+}
+.Ad_One_header {
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: bold;
+  padding: 15px;
+}
+.Ad_One_body img {
+  height: 270px;
+  width: 290px;
+  padding-left: 20px;
+}
+
+.Ad_One_footer {
+  padding-left: 20px;
+  padding-top: 15px;
+}
